@@ -1,0 +1,7 @@
+requests[socks]
+dnspython
+stem
+pysocks
+python-whois
+beautifulsoup4
+
