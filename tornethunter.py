@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 TorNetHunter - Menu driven CLI entrypoint
 """
@@ -23,7 +22,7 @@ def menu():
     while True:
         os.system("clear")
         print(BANNER)
-        # ... rest of menu
+    
 def pause():
     input("\nPress Enter to continue...")
 
@@ -67,7 +66,7 @@ def menu():
 
 if __name__ == "__main__":
     try:
-        # Ensure tor service is running and rotate for fresh identity
+        
         utils.ensure_tor_started()
         utils.rotate_tor()
     except Exception as e:
