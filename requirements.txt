@@ -1,6 +1,6 @@
-requests[socks] --break-system-packages
-dnspython --break-system-packages
-stem --break-system-packages
-pysocks --break-system-packages
-python-whois --break-system-packages
-beautifulsoup4 --break-system-packages
+requests[socks] 
+dnspython 
+stem 
+pysocks 
+python-whois 
+beautifulsoup4 
