@@ -20,7 +20,7 @@ if ! command -v pip3 > /dev/null 2>&1; then
 fi
 
 echo "[*] Installing Python dependencies..."
-pip3 install --user -r requirements.txt
+pip3 install --user -r requirements.txt --break-system-packages
 
 # Make tornethunter executable
 echo "[*] Setting executable permissions..."
