@@ -4,3 +4,6 @@ stem
 pysocks 
 python-whois 
 beautifulsoup4 
+openai
+transformers
+torch
